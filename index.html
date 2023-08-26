@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nav">
+       <div class="nav-container">
+        <div class="left">
+            <h3>Header</h3>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#">Signup</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </div>
+       </div>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <form id="signup-form">
+                <h2>Signup</h2>
+                <input type="text" id="full-name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                <button type="submit">Signup</button>
+                <p id="signup-message"></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
